@@ -24,7 +24,13 @@ It reports:
 
 ## Quick start
 
-Install Python 3.10 or 3.11, open a terminal in this folder, and install the two required scientific packages:
+This repository requires Python 3.11. Open PowerShell and run:
+
+```powershell
+winget install --id Python.Python.3.11 -e
+```
+
+Change directory (cd) to this folder, and install the two required scientific packages:
 
 ```text
 python -m pip install -r requirements.txt
@@ -88,20 +94,6 @@ The simulated chemistry was solved first. Noise was then added to create acquisi
 The implementation is in `augmentation/noise_augmentation.py`; the numerical ranges are listed in `augmentation/noise_settings.json`.
 
 ## Model evaluation quantities
-
-For measured values \(y_i\), predictions \(\hat{y}_i\), and \(n\) records:
-
-\[
-\mathrm{MAE}=\frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
-\]
-
-\[
-\mathrm{RMSE}=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
-\]
-
-\[
-R^2=1-\frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}{\sum_{i=1}^{n}(y_i-\bar{y})^2}
-\]
 
 MAE gives the average absolute prediction error, RMSE gives greater weight to large errors, and \(R^2\) describes how much of the variation in the reference values is reproduced by the predictions.
 
