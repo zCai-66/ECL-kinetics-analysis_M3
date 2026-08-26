@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "ecl": {
+    "peak_photon_rate_s_log10_range": [5.0, 9.0],
+    "zero_background_probability": 0.25,
+    "background_to_peak_rate_log10_range": [-5.0, -1.3010299956639813],
+    "gain_range": [0.8, 1.25],
+    "gain_end_to_start_range": [0.95, 1.05],
+    "count_distribution": "Poisson"
+  },
+  "current": {
+    "white_sigma_to_clean_maxabs_log10_range": [-5.0, -2.5228787452803374],
+    "ar1_sigma_to_clean_maxabs_log10_range": [-5.0, -2.5228787452803374],
+    "ar1_rho_range": [0.8, 0.995],
+    "baseline_offset_to_clean_maxabs_range": [-0.005, 0.005],
+    "linear_drift_end_to_clean_maxabs_range": [-0.01, 0.01],
+    "quantization_bits": [0, 14, 16, 18],
+    "quantization_probability": [0.25, 0.25, 0.25, 0.25],
+    "adc_range_to_clean_maxabs": 1.2
+  }
+}

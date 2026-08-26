@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the information below."
+type: software
+title: "ECL transient analysis with the M3 convolutional neural network"
+authors:
+  - family-names: "Cai"
+    given-names: "Zhenzhong"
+  - family-names: "Lee"
+    given-names: "In"
+  - family-names: "Wei"
+    given-names: "Tianyu"
+  - family-names: "Winslade"
+    given-names: "Jessica Elizabeth Melissa"
+  - family-names: "Ding"
+    given-names: "Zhifeng"
