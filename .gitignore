@@ -1,6 +1,0 @@
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-my_prediction.csv
-.DS_Store
