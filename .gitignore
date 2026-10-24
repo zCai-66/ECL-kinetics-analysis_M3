@@ -2,8 +2,5 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-M3_predictions*.csv
-*.temporary
-*.recovery
-*.status
-*.log
+my_prediction.csv
+.DS_Store

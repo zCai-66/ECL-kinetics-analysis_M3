@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it using the information below."
 type: software
-title: "ECL transient analysis with the M3 convolutional neural network"
+title: "Using the M3 and M2 convolutional neural networks for ECL transients"
 authors:
   - family-names: "Cai"
     given-names: "Zhenzhong"

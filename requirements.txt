@@ -1,5 +1,5 @@
 # Install with: python -m pip install -r requirements.txt
-# Python 3.10 or 3.11 is recommended.
+# Use Python 3.11.
 --extra-index-url https://download.pytorch.org/whl/cpu
 numpy==1.26.4
 torch==2.5.1+cpu; platform_system == "Windows" or platform_system == "Linux"
